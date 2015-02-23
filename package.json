@@ -1,30 +1,45 @@
 {
-  "name": "react-app-boilerplate",
-  "version": "2.2.2",
-  "description": "React application boilerplate",
-  "author": "Christian Alfoni",
-  "license": "ISC",
+  "name": "comcastapp",
+  "version": "0.3.0",
+  "description": "Common Sense Media HTML5 app for Comcast X1 platform",
+  "main": "dist/index.html",
+  "dependencies": {
+    "es6-promise": "~1.0.0",
+    "object-assign": "~1.0.0",
+    "react": "~0.12.2",
+    "react-router": "^0.11.6"
+  },
   "devDependencies": {
     "browserify": "^6.2.0",
     "glob": "^4.0.6",
     "gulp": "^3.8.9",
+    "gulp-compass": "^2.0.3",
     "gulp-concat": "^2.3.4",
     "gulp-cssmin": "^0.1.6",
+    "gulp-compass": "^2.0.3",
+    "gulp-rename": "^1.2.0",
     "gulp-if": "^1.2.4",
+    "gulp-jasmine2-phantomjs": "^0.1.1",
     "gulp-livereload": "^2.1.1",
     "gulp-notify": "^1.4.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-shell": "^0.2.10",
     "gulp-streamify": "0.0.5",
     "gulp-uglify": "^0.3.1",
     "gulp-util": "^3.0.0",
-    "gulp-jasmine2-phantomjs": "^0.1.1",
-    "gulp-shell": "^0.2.10",
     "phantomjs": "^1.9.12",
     "react-addons": "^0.9.0",
     "reactify": "^0.15.2",
     "vinyl-source-stream": "^0.1.1",
     "watchify": "^2.1.1"
   },
-  "dependencies": {
-    "react": "^0.12.0"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:sstedman/comcast-react.git"
+  },
+  "author": "Shawn Stedman",
+  "license": "ISC"
 }
